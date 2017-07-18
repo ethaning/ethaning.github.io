@@ -1,0 +1,88 @@
+/*General Styling*/
+
+body {
+	font-family: 'Zilla Slab', serif;
+	background-color: #f9fffa;
+
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+div.container {
+
+	width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    min-width: 400px;
+}
+
+
+/*The Finer Details...*/
+
+
+a{
+	color: black;
+}
+
+a:hover{
+	color:blue;
+}
+
+footer {
+	font-size: 24px;
+	margin-top: 20px;
+}
+
+footer>a{
+	color: white;
+}
+
+header, footer {
+	color: white;
+	background-color: black;
+	clear: left;
+	text-align: center;
+	
+}
+
+header{
+	font-size: 40px;
+}
+
+.intro{
+	font-size: 24px;
+}
+
+.intro>.logo{
+	max-height: 80px;
+	float: right;
+	margin: 0 0 0 20px;
+}
+
+.item {
+	//border: 3px solid red;
+	padding: 5px;
+}
+.item>img{
+	float:left;
+	margin-right:30px;
+	max-width: 350px;
+	border-radius: 15px;
+}
+
+.item>p{
+	padding: 0 30px 0 0;
+}
+
+.item>p>.tip{
+	font-style: italic;
+	font-weight: bold;
+}
+
+.item>h3{
+	clear: both;
+}
